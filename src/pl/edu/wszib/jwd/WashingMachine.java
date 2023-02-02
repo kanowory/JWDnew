@@ -1,10 +1,10 @@
 package pl.edu.wszib.jwd;
 
-public class WasingMashine {
+public class WashingMachine {
     private int temperature;
     private int spinning;
 
-    public void modeForSesitiveClothes() {
+    public void modeForSensitiveClothes() {
         temperature = 30;
         spinning = 800;
     }
@@ -16,7 +16,7 @@ public class WasingMashine {
 
     @Override
     public String toString() {
-        return "WasingMashine{" +
+        return "WashingMachine{" +
                 "temperature=" + temperature +
                 ", spinning=" + spinning +
                 '}';

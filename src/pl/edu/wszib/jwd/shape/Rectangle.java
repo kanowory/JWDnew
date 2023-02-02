@@ -1,6 +1,6 @@
-package pl.edu.wszib.jwd;
+package pl.edu.wszib.jwd.shape;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     private int length;
     private int width;
 

@@ -8,7 +8,6 @@ public class Cat extends Animal{
         numInstances++;
     }
 
-
     @Override
     public String getType() {
         return type;

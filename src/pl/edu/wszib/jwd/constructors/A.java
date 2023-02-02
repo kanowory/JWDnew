@@ -1,4 +1,4 @@
-package pl.edu.wszib.jwd.Lab11;
+package pl.edu.wszib.jwd.constructors;
 
 public class A {
 

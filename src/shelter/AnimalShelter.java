@@ -1,7 +1,5 @@
 package shelter;
 
-import pl.edu.wszib.jwd.Shape;
-
 import java.util.Random;
 
 public class AnimalShelter {
@@ -32,7 +30,8 @@ public class AnimalShelter {
         }
 
 
-        System.out.println(animals[33].getInstanceNumber());
-        System.out.println(animals[33].getType());
+        System.out.println();
+        System.out.println("In cage number 32 lives a " + animals[33].getType() + ".");
+        System.out.println("There are " + animals[33].getInstanceNumber() + " " + animals[33].getType() + "s in shelter." );
     }
 }

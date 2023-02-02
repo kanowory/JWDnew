@@ -1,4 +1,4 @@
-package pl.edu.wszib.jwd;
+package pl.edu.wszib.jwd.shape;
 
 public class GeometricFigures {
     public static void main(String[] args) {

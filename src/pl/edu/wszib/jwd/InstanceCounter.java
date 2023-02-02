@@ -16,12 +16,12 @@ public class InstanceCounter {
     }
 
     public static void main(String[] args) {
-        System.out.println("Na początku: " + InstanceCounter.getNumInstances());
+        System.out.println("At the beginning: " + InstanceCounter.getNumInstances());
 
         for (int i = 0; i < 1000; i++) {
             new InstanceCounter();
         }
 
-        System.out.println("Utworzono: " + InstanceCounter.getNumInstances());
+        System.out.println("Created: " + InstanceCounter.getNumInstances());
     }
 }

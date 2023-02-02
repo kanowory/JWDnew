@@ -1,4 +1,4 @@
-package pl.edu.wszib.jwd;
+package pl.edu.wszib.jwd.shape;
 
 public abstract class Shape {
     private String color;

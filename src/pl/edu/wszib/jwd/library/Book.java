@@ -1,4 +1,4 @@
-package pl.edu.wszib.jwd.Lab12;
+package pl.edu.wszib.jwd.library;
 
 import java.util.Objects;
 

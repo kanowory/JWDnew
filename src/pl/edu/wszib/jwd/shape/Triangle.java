@@ -1,6 +1,8 @@
-package pl.edu.wszib.jwd;
+package pl.edu.wszib.jwd.shape;
 
-public class Triangle extends Shape{
+import pl.edu.wszib.jwd.shape.Shape;
+
+public class Triangle extends Shape {
     private int base;
     private int height;
 

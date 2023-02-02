@@ -6,7 +6,7 @@ public class VisitCounterTester {
         visitCounter.increment();
         visitCounter.increment();
         visitCounter.increment();
-        //visitCounter.counter++;
+        //visitCounter.counter++;//nie można bo private
         System.out.println(visitCounter.getCounter());
     }
 }

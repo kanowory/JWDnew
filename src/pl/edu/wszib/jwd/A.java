@@ -2,7 +2,7 @@ package pl.edu.wszib.jwd;
 
 public class A {
     public A() {
-        //super() - wywołanie konstruktora klasy Object
+        //super(); - wywołanie konstruktora klasy Object
         System.out.println("Działa konstruktor pl.edu.wszib.jwd.A()");
     }
     public A(String param) {
