@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: zjazd5.dataBases.budget.HomeBudget
+Class-Path: mssql-jdbc-12.2.0.jre11.jar
+
