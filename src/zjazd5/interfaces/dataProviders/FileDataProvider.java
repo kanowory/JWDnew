@@ -1,10 +1,12 @@
-package zjazd5.interfaces;
+package zjazd5.interfaces.dataProviders;
+
+import zjazd5.interfaces.dataProviders.DataProvider;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class FileDataProvider implements DataProvider{
+public class FileDataProvider implements DataProvider {
     @Override
     public String getData() {
         try {
