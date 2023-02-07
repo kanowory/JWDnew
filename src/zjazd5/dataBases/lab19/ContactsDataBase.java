@@ -11,7 +11,7 @@ public class ContactsDataBase {
 
 
 
-        String connectionUrl = "jdbc:sqlserver://morfeusz.wszib.edu.pl;encrypt=true;databaseName=AdventureWorks;user=kanowory;password=*;trustServerCertificate=true;";
+        String connectionUrl = "jdbc:sqlserver://***;encrypt=true;databaseName=AdventureWorks;user=***;password=***;trustServerCertificate=true;";
 
         try (Connection con = DriverManager.getConnection(connectionUrl)) {
 

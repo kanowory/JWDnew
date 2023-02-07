@@ -9,8 +9,8 @@ import java.text.NumberFormat;
 
 public class HomeBudget {
     //todo : do innego pliku lub miejsca poza repo!!!
-    private static final String DB_USER = "kanowory";
-    private static final String DB_PASS = "hasło";
+    private static final String DB_USER = "***";
+    private static final String DB_PASS = "***";
     private static final String SQL_INSERT_ENTRY = "insert into budget.BudgetEntries(EntryName, Amount) values (?, ?)";
 
     private static final String SQL_GET_BALANCE = "select sum(Amount) as balance from budget.BudgetEntries";
@@ -56,8 +56,8 @@ public class HomeBudget {
         SQLServerDataSource ds = new SQLServerDataSource();
         ds.setUser(userName);
         ds.setPassword(password);
-        ds.setServerName("morfeusz.wszib.edu.pl");
-        ds.setPortNumber(1433);
+        ds.setServerName("***");
+        ds.setPortNumber(***);
         ds.setDatabaseName(userName);
         ds.setTrustServerCertificate(true);
         return ds.getConnection();

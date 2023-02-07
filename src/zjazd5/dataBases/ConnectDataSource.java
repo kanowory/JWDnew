@@ -11,11 +11,11 @@ public class ConnectDataSource {
     public static void main(String[] args) {
 
         SQLServerDataSource ds = new SQLServerDataSource();
-        ds.setUser("kanowory");
-        ds.setPassword("hasło");//uwaga! nie komitować do repo
-        ds.setServerName("morfeusz.wszib.edu.pl");
-        ds.setPortNumber(1433);
-        ds.setDatabaseName("kanowory");
+        ds.setUser("***");
+        ds.setPassword("***");//uwaga! nie komitować do repo
+        ds.setServerName("***");
+        ds.setPortNumber(***);
+        ds.setDatabaseName("***");
         ds.setTrustServerCertificate(true);
 
         String sql = " select * from Forum.Topics";
